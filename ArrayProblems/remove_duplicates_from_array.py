@@ -16,4 +16,4 @@ nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
 k = removeDuplicates(nums)
 
 print(k)  # 5
-print(nums)
+print(nums[:k])
