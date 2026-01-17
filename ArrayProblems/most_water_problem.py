@@ -7,8 +7,8 @@ def maxArea(height):
     max_area = 0
     while left < right:
         width = right - left
-        length = min(height[left], height[right])
-        area = width * length
+        ht = min(height[left], height[right])
+        area = width * ht
         max_area = max(max_area, area)
 
         if height[left] > height[right]:
